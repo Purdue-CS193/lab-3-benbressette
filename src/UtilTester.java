@@ -3,8 +3,9 @@
 // ALT + ENTER to "Add Junit4 to Classpath". This will allow
 // you to run the test cases!
 
-import org.junit.*;
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class UtilTester {
     public static final double delta = 0.000001;
